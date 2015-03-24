@@ -1,5 +1,6 @@
 var express = require('express'),
   compression = require('compression'),
+  morgan = require('morgan'),
   app = express(),
   env = process.env;
 

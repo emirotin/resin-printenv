@@ -1,0 +1,12 @@
+{
+  "name": "resin-printenv",
+  "version": "1.0.0",
+  "description": "Outputs device env vars over HTTP",
+  "main": "server.js",
+  "author": "Eugene Mirotin <emirotin@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.4.3",
+    "express": "^4.12.3"
+  }
+}

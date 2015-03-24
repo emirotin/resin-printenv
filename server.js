@@ -5,9 +5,8 @@ var express = require('express'),
   env = process.env;
 
 app.use(compression());
-app.use(morgan('development'));
+app.use(morgan('dev'));
 app.use(function(req, res, next) {
-  console.log('Request received');
   res.json(env);
 });
 
